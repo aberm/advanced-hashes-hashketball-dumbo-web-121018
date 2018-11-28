@@ -127,7 +127,7 @@ def num_points_scored(name)
     data.each do |key, value|
       if key == :players
         if name in :players
-          return name[:points]
+          name[:points]
         end
       end
     end
