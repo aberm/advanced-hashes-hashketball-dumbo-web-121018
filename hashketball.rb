@@ -83,7 +83,7 @@ def game_hash
           :blocks => 15,
           :slam_dunks => 10
         },
-        "Brook Lopez" => {
+        "DeSagna Diop" => {
           :number => 11,
           :shoe => 17,
           :points => 17,
