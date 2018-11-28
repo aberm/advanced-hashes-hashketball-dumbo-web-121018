@@ -125,7 +125,7 @@ def num_points_scored(name)
   
   game_hash.each do |location, data|
     data.each do |key, value|
-      value.each do |x|
+      for x in value do
         if x == name
           return x[:points]
         end
