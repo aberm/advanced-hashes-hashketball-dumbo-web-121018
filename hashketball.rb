@@ -5,7 +5,10 @@ def game_hash
   game = {
     :home => {
       :team_name => 'et',
-      :colors => 
+      :colors => [aerg],
+      :players => {
+        
+      }
     },
     :away => {
       
