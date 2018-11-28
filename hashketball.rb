@@ -122,7 +122,9 @@ def game_hash
 end
 
 def num_points_scored(name)
-  game_hash.each |
+  game_hash.each do |location, data|
+    data.each do |facts, stats|
+      if data == 
 
 
 
