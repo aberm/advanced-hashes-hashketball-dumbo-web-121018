@@ -125,7 +125,7 @@ end
 def num_points_scored(name)
   
   game_hash.each do |location, data|
-    binding.pry
+    # binding.pry
     if data == :players
       data.each do |key, value|
         if key == name
